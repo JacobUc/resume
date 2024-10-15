@@ -3,14 +3,14 @@ import Separator from './Separator';
 export default function Experience(){
 
     return(
-        <section id="experience" className="w-full px-16 font-lora text-lg ">
+        <section id="experience" className="w-full px-16 font-lora text-lg">
 
             <Separator />
 
             {/* Experiencia Laboral */}
             <div>
                 <div className='mb-1'>
-                    <h3 className="mt-4 mb-5 text-4xl uppercase font-bold font-playfair"> Experiencia <br/> Profesional </h3>
+                    <h3 className="mt-4 mb-7 text-4xl uppercase font-bold font-playfair"> Experiencia <br/> Profesional </h3>
                 </div>
                 <div>
                     <p className='font-semibold'>
@@ -25,7 +25,7 @@ export default function Experience(){
             <Separator />
 
             {/* Proyectos */}
-            <div className='mt-14 mb-14 flex flex-col gap-7'>
+            <div className='flex flex-col gap-7'>
                 <div>
                     <h3 className="text-4xl uppercase font-bold font-playfair"> Proyectos <br/> Destacados </h3>
                 </div>
@@ -118,7 +118,7 @@ export default function Experience(){
             <Separator />
 
             {/* Estudios y Certificaciones*/}
-            <div className='mt-14 mb-14 flex flex-col gap-5'>
+            <div className='flex flex-col gap-5'>
                 <div className='mb-1'>
                     <h3 className="text-4xl uppercase font-bold font-playfair"> Educación &<br /> Certificaciones</h3>
                 </div>
@@ -133,7 +133,7 @@ export default function Experience(){
                 <div>
                     <a href='https://coursera.org/share/d53da41fa7e59cee1edafecdb960c8ae' 
                         target="_blank" 
-                        className='py-1 font-semibold duration-300 hover:text-sky-500'>
+                        className='py-1 font-semibold duration-500 hover:text-sky-500'>
                         Hands-on Introduction to Linux Commands and Shell Scripting
                     </a>
                     <p className='font-medium text-neutral-600'>Coursera</p>
@@ -142,7 +142,7 @@ export default function Experience(){
                 <div>
                     <a href='https://coursera.org/share/d9902f88dc0274e0752be1761b074d4c' 
                         target="_blank" 
-                        className='py-1 font-semibold duration-300 hover:text-sky-500'>
+                        className='py-1 font-semibold duration-500 hover:text-sky-500'>
                         Introducción al desarrollo de front-end
                     </a>
                     <p className='font-medium text-neutral-600'>Coursera</p>
@@ -151,7 +151,7 @@ export default function Experience(){
                 <div>
                     <a href='https://coursera.org/share/afb42af2b78824423cb408c4815c4295' 
                         target="_blank" 
-                        className='py-1 font-semibold duration-300 hover:text-sky-500'>
+                        className='py-1 font-semibold duration-500 hover:text-sky-500'>
                         Programación con JavaScript
                     </a>
                     <p className='font-medium text-neutral-600'>Coursera</p>
@@ -160,7 +160,7 @@ export default function Experience(){
                 <div>
                     <a href='https://coursera.org/share/3b8a23bbc7aa77423c6c08a45db16497' 
                         target="_blank" 
-                        className='py-1 font-semibold duration-300 hover:text-sky-500'>
+                        className='py-1 font-semibold duration-500 hover:text-sky-500'>
                         Conceptos básicos de React
                     </a>
                     <p className='font-medium text-neutral-600'>Coursera</p>
@@ -169,7 +169,7 @@ export default function Experience(){
                 <div>
                     <a href='https://coursera.org/share/e195874948cba9a6b0492158e0f6be62' 
                         target="_blank" 
-                        className='py-1 font-semibold duration-300 hover:text-sky-500'>
+                        className='py-1 font-semibold duration-500 hover:text-sky-500'>
                         Principios de diseño UX/UI
                     </a>
                     <p className='font-medium text-neutral-600'>Coursera</p>

@@ -1,20 +1,17 @@
 import img from '../img/separator.png';
+import Separator from './Separator';
 
 export default function Contact(){
 
     return(
         <>
-            <section id="contact" className="w-full px-16 border-2">
-                <img 
-                    src={img}
-                    className='mb-10 w-20'
-                    alt='Separator'
-                />
+            <section id="contact" className="w-full px-16">
+                <Separator/>
 
                 {/* Tecnologias */}
                 <div className='mb-12'>
                     <div>
-                        <h3 className="mt-4 mb-5 text-4xl font-bold font-playfair">Contacto</h3>
+                        <h3 className="mt-4 mb-5 text-4xl uppercase font-bold font-playfair">Contacto</h3>
                     </div>
                     <div>
                         <p>2024</p>
