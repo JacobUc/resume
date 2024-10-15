@@ -28,7 +28,7 @@ export default function Contact(){
                         </li>
                         
                         <li>
-                            <a href='https://www.linkedin.com/in/jacob-uc-a70a3a1b8/'
+                            <a href='https://github.com/JacobUc'
                                 target="_blank"
                                 className='py-1 pr-1 text-neutral-700 hover:text-sky-500 duration-500'> 
                                 <i class="fa-brands fa-github fa-lg mr-2"></i>
