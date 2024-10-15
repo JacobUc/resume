@@ -7,7 +7,7 @@ export default function Presentation(){
 
     return(
         // mt-16 -> Para cuando Navbar sea fixed
-        <section id="home" className="w-full px-16 pt-4 pb-14">
+        <section id="home" className="w-full px-16 pt-4">
             <div>
                 {/* Nombre y Rol */}
                 <div>

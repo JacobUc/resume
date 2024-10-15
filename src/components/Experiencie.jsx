@@ -1,18 +1,14 @@
-import img from '../img/separator.png';
+import Separator from './Separator';
 
 export default function Experience(){
 
     return(
         <section id="experience" className="w-full px-16 font-lora text-lg ">
-            
-            <img
-                src={img}
-                className='mb-10 w-20'
-                alt='Separator'
-            />
+
+            <Separator />
 
             {/* Experiencia Laboral */}
-            <div className='mt-14 mb-14'>
+            <div>
                 <div className='mb-1'>
                     <h3 className="mt-4 mb-5 text-4xl uppercase font-bold font-playfair"> Experiencia <br/> Profesional </h3>
                 </div>
@@ -26,11 +22,7 @@ export default function Experience(){
                 </div>
             </div>
 
-            <img
-                src={img}
-                className='mb-10 w-20'
-                alt='Separator'
-            />
+            <Separator />
 
             {/* Proyectos */}
             <div className='mt-14 mb-14 flex flex-col gap-7'>
@@ -123,11 +115,7 @@ export default function Experience(){
 
             </div>
 
-            <img
-                src={img}
-                className='mb-10 w-20'
-                alt='Separator'
-            />
+            <Separator />
 
             {/* Estudios y Certificaciones*/}
             <div className='mt-14 mb-14 flex flex-col gap-5'>
