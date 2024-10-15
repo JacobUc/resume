@@ -7,12 +7,12 @@ export default function Navbar(){
         // fixed z-10
         <header className="py-5 px-48 top-0 flex justify-end items-center bg-neutral-100 shadow-sm">
             <nav className="w-4/12 mr-10">
-                <ul className="flex justify-between font-normal font-poppins text-sm">
+                <ul className="flex justify-between font-normal font-poppins">
                     <li>
                         <Link to="experience"
                             spy={true}
                             smooth={true}
-                            className="px-.5 py-.5 duration-300 hover:text-sky-500 cursor-pointer">
+                            className="px-.5 py-.5 duration-500 hover:text-sky-500 cursor-pointer">
                             Experiencia
                         </Link>
                         {/* <a href="#home" className='px-.5 py-.5 duration-300 hover:text-sky-500'>Inicio</a>  */}
@@ -21,7 +21,7 @@ export default function Navbar(){
                         <Link to="projects"
                             spy={true}
                             smooth={true}
-                            className="px-.5 py-.5 duration-300 hover:text-sky-500 cursor-pointer">
+                            className="px-.5 py-.5 duration-500 hover:text-sky-500 cursor-pointer">
                             Proyectos
                         </Link>
                         {/* <a href="#experience" className={`px-.5 py-.5 duration-300 hover:text-sky-500 ${activeSection === 'experience' ? 'text-sky-400' : ''}`}>Experiencia</a>  */}
@@ -31,7 +31,7 @@ export default function Navbar(){
                             spy={true}
                             smooth={true}
                             duration={1800}
-                            className="px-.5 py-.5 duration-300 hover:text-sky-500 cursor-pointer">
+                            className="px-.5 py-.5 duration-500 hover:text-sky-500 cursor-pointer">
                             Educación
                         </Link>
                     </li>
@@ -40,7 +40,7 @@ export default function Navbar(){
                             spy={true}
                             smooth={true}
                             duration={2000}
-                            className="px-.5 py-.5 duration-300 hover:text-sky-500 cursor-pointer">
+                            className="px-.5 py-.5 duration-500 hover:text-sky-500 cursor-pointer">
                             Contacto
                         </Link>
                     </li>
