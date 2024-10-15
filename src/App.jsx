@@ -11,7 +11,7 @@ function App() {
       <Navbar/>
 
       {/* bg-zinc-200  w-7/12*/}
-      <main className="w-[55rem] m-auto shadow-xl"> 
+      <main className="w-[55rem] m-auto shadow-xl pb-[4rem]"> 
           {/* Home Section */}
           <Presentation/>
 

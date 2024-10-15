@@ -14,7 +14,7 @@ export default function TechSkills(){
                 {/* Tecnologias */}
                 <div className='mb-12'>
                     <div>
-                        <h3 className="mt-4 mb-5 text-4xl font-bold font-playfair">Tecnologias</h3>
+                        <h3 className="mt-4 mb-5 text-4xl font-bold font-playfair"> Habilidades <br/> Técnicas </h3>
                     </div>
                     <div>
                         <p>2024</p>
