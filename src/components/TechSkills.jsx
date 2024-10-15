@@ -4,7 +4,7 @@ export default function TechSkills(){
 
     return(
         <>
-            <section id="techskills" className="w-full px-16 font-lora text-lg">
+            <section id="techskills" className="w-full px-16 font-lora">
                 <Separator />
 
                 {/* Tecnologias */}
