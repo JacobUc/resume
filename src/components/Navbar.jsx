@@ -15,7 +15,6 @@ export default function Navbar(){
                             className="px-.5 py-.5 duration-500 hover:text-sky-500 cursor-pointer">
                             Experiencia
                         </Link>
-                        {/* <a href="#home" className='px-.5 py-.5 duration-300 hover:text-sky-500'>Inicio</a>  */}
                     </li>
                     <li>
                         <Link to="projects"
@@ -24,7 +23,6 @@ export default function Navbar(){
                             className="px-.5 py-.5 duration-500 hover:text-sky-500 cursor-pointer">
                             Proyectos
                         </Link>
-                        {/* <a href="#experience" className={`px-.5 py-.5 duration-300 hover:text-sky-500 ${activeSection === 'experience' ? 'text-sky-400' : ''}`}>Experiencia</a>  */}
                     </li>
                     <li>
                         <Link to="education"
