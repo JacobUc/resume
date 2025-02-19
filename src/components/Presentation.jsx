@@ -47,7 +47,7 @@ export default function Presentation(){
                 {/* Descripcion */}
                 <div className='mt-6'>
                     <p className='text-justify font-lora text-lg leading-7'>
-                        Cursando el octavo semestre de Ingeniería de Software en la Universidad Autónoma de Yucatán. Disfruto crear soluciones eficientes y creativas, siguiendo procesos bien definidos y organizados. Busco aplicar mis conocimientos en un entorno profesional donde pueda aprender, crecer y aportar en proyectos significativos. Estoy comprometido con la mejora continua y la innovación en cada desafío que enfrento.
+                        Cursando el último semestre de la licenciatura Ingeniería de Software en la Universidad Autónoma de Yucatán. Disfruto crear soluciones eficientes y creativas, siguiendo procesos bien definidos y organizados. Busco aplicar mis conocimientos en un entorno profesional donde pueda aprender, crecer y aportar en proyectos significativos. Estoy comprometido con la mejora continua y la innovación en cada desafío que enfrento.
                     </p>
                 </div>
             </div>
